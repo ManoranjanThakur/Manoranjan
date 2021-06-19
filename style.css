@@ -112,7 +112,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("images/background.png") no-repeat;
+  background: url("https://manoranjanthakur.github.io/Manoranjan/images/background.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -525,7 +525,7 @@ footer .text span a:hover{
     color: #4070f4;
   }
   .home{
-    background: url("images/a.png") no-repeat;
+    background: url("https://manoranjanthakur.github.io/Manoranjan/images/a.png") no-repeat;
   }
   #btn1{
     display:none;
