@@ -112,7 +112,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("https://manoranjanthakur.github.io/Manoranjan/Images/background.png") no-repeat;
+  background: url("images/background.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -243,6 +243,9 @@ section  .topic{
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+#btmicn{
+  display:none;
 }
 .about-details .right p{
   text-align: justify;
@@ -448,7 +451,32 @@ footer .text span a:hover{
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 750px){
+  .home{
+    background: url("images/background\ -.jpg") no-repeat;
+  }
+  .home .home-content{
+    margin-top: 22vw;
+  }
+  .home .text-one{
+    font-size: 4vw;
+  }
+  .home .text-two{
+    font-size: 6vw;
+  }
+  .home .text-three{
+    font-size: 5vw;
+    margin: 5px 0;
+  }
+  .home .text-four{
+    font-size: 6vw;
+    margin: 5px 0;
+  }
+  .home .button button{
+    margin-top:-10px;
+    font-size: 3vw;
+    
+  }
   nav .navbar{
     width: 90%;
   }
@@ -484,12 +512,6 @@ footer .text span a:hover{
   .navbar .menu .cancel-btn{
     display: block;
   }
-  .home .text-two{
-    font-size: 65px;
-  }
-  .home .text-three{
-    font-size: 35px;
-  }
   .skills .skills-details{
     align-items: center;
     justify-content: center;
@@ -524,9 +546,6 @@ footer .text span a:hover{
     font-size: 50px;
     color: #4070f4;
   }
-  .home{
-    background: url("https://manoranjanthakur.github.io/Manoranjan/Images/a.png") no-repeat;
-  }
   #btn1{
     display:none;
   }
@@ -535,9 +554,13 @@ footer .text span a:hover{
   }
 }
 @media (max-width: 420px){
+  .home{
+    background: url("images/smm.jpg") no-repeat;
+  }
   .home .home-content{
     width: 90%;
     height: 100%;
+    margin-top: 10vw;
   }
   .home .text-one{
     font-size: 22px;
@@ -560,5 +583,27 @@ footer .text span a:hover{
     font-size: 15px;
     
   }
-  
+  #btmicn{
+    margin-left:0px;
+    display: contents;
+  }
+  #a1{
+    margin-left:0px;
+    height:25px;
+    width:25px;
+    
+  }
+  #a2{
+    margin-left:32px;
+    height:25px;
+    width:25px;
+    
+  }
+  #a3{
+    margin-left:22px;
+    height:25px;
+    width:25px;
+
+  }
+
 }
